@@ -33,11 +33,9 @@ Used SMOTE (Synthetic Minority Oversampling Technique) to oversample the minorit
 
 **Model Comparison**
 
-Model	            Precision (Fraud)	Recall (Fraud)	F1-Score (Fraud)
-Logistic Regression	        0.83	            0.64	            0.72
-Random Forest              	0.12	            0.91            	0.21
-XGBoost (Untuned)          	0.77	            0.87	            0.82
-XGBoost (Tuned)	            0.79             	0.86	            0.82
+
+![image](https://github.com/user-attachments/assets/d31a54e6-a431-4ade-829b-2c9829f2f4b6)
+
 **Insight:**
 Random Forest had high recall but very low precision, meaning it predicted a lot of false frauds.
 

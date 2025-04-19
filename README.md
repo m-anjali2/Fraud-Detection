@@ -38,8 +38,7 @@ Logistic Regression	0.83	0.64	0.72
 Random Forest	0.12	0.91	0.21
 XGBoost (Untuned)	0.77	0.87	0.82
 XGBoost (Tuned)	0.79	0.86	0.82
-**Insight:
-**
+**Insight:**
 Random Forest had high recall but very low precision, meaning it predicted a lot of false frauds.
 
 Logistic Regression was more balanced but missed many frauds (low recall).
@@ -47,6 +46,7 @@ Logistic Regression was more balanced but missed many frauds (low recall).
 XGBoost performed the best overall, especially after tuning—achieving both good precision and high recall.
 
 **Final Model Performance**
+
 Final tuned XGBoost model:
 
 Accuracy: 100% (because of class imbalance)
@@ -58,6 +58,7 @@ Recall (fraud): 0.86
 F1-score (fraud): 0.82
 
 **Output Files**
+
 fraud_detection_xgboost_model.pkl: Trained model
 
 test_data_for_demo.csv: Sample test data

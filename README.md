@@ -1,5 +1,6 @@
 # Fraud-Detection
 **About the Project**
+
 Credit card fraud is rare, but extremely impactful. In this project, I built a machine learning model to detect fraudulent transactions early. Since fraud cases are very rare (less than 0.2%), the project required careful handling of imbalanced data and performance metrics beyond accuracy.
 
 **Dataset Info**
